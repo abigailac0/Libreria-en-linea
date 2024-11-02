@@ -1,0 +1,16 @@
+<title>Librería OnLine: Editar Libro</title>
+<h2>Editar Libro</h2>
+<link rel="stylesheet" href="/stylesheets/style.css"> <!-- Enlace al archivo CSS -->
+<form class="formulario" action="/books/edit/<%= book.id %>" method="POST">
+    <label>Título:</label>
+    <input type="text" name="title" value="<%= book.title %>" required>
+    <label>Autor:</label>
+    <input type="text" name="author" value="<%= book.author %>" required>
+    <label>Año:</label>
+    <input type="number" name="year" value="<%= book.year %>" required>
+    <label>Precio:</label>
+    <input type="text" name="price" value="<%= book.price %>" required>
+    <label>Portada (URL):</label>
+    <input type="text" name="cover" value="<%= book.cover %>" required><br>
+    <button type="submit">Actualizar Libro</button>
+</form>

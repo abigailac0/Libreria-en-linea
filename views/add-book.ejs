@@ -1,0 +1,16 @@
+<title>Libreria OnLine: Agregar Libro</title>
+<h2>Agregar Nuevo Libro</h2>
+<link rel="stylesheet" href="/stylesheets/style.css"> <!-- Enlace al archivo CSS -->
+<form class="formulario" action="/books/add" method="POST">
+    <label>Título:</label>
+    <input type="text" name="title" required>
+    <label>Autor:</label>
+    <input type="text" name="author" required>
+    <label>Año:</label>
+    <input type="number" name="year" required>
+    <label>Precio:</label>
+    <input type="text" name="price" required>
+    <label>Portada (URL):</label>
+    <input type="text" name="cover" required><br>
+    <button type="submit">Agregar Libro</button>
+</form>

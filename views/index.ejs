@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería OnLine</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <h1>Librería OnLine</h1>
+    <a href="/books/add">Agregar Libro</a>
+    <a href="/users/login">Iniciar Sesión</a>
+    <a href="/users/register">Registrar</a>
+
+    <ul class="contenedor">
+        <% books.forEach((book, index) => { %>
+            <li>
+                <h3><%= book.title %> - <%= book.author %></h3>
+                <p><%= book.year %> - $<%= book.price %></p>
+                <img src="<%= book.cover %>" alt="Portada" width="100">
+                <a href="/books/edit/<%= index %>">Editar</a>
+                <form action="/books/delete/<%= index %>" method="POST">
+                    <button type="submit">Eliminar</button>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
+</ul>
