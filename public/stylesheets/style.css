@@ -2,7 +2,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #BB9AB1;
     margin: 0;
     padding: 0;
     color: #17153B;
@@ -79,6 +78,7 @@ button:hover {
     margin-bottom: 20px;
 }
 .contenedor {
+    background-color: #FEFBD8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
     grid-template-rows: auto;
