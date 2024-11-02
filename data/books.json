@@ -3,48 +3,57 @@
     "title": "Becoming",
     "author": "Michelle Obama",
     "year": "2018",
-    "price": "19.99"
+    "price": "19.99",
+    "cover": ""
   },
   {
     "title": "Educated",
     "author": "Tara Westover",
     "year": "2018",
-    "price": "14.99"
+    "price": "14.99",
+    "cover": ""
+
   },
   {
     "title": "The Testaments",
     "author": "Margaret Atwood",
     "year": "2019",
-    "price": "17.99"
+    "price": "17.99",
+    "cover": ""
   },
   {
     "title": "The Institute",
     "author": "Stephen King",
     "year": "2019",
-    "price": "16.99"
+    "price": "16.99",
+    "cover": ""
   },
   {
     "title": "Normal People",
     "author": "Sally Rooney",
     "year": "2018",
-    "price": "13.99"
+    "price": "13.99",
+    "cover": ""
   },
   {
     "title": "Circe",
     "author": "Madeline Miller",
     "year": "2018",
-    "price": "11.99"
+    "price": "11.99",
+    "cover": ""
   },
   {
     "title": "The Giver of Stars",
     "author": "Jojo Moyes",
     "year": "2019",
-    "price": "15.99"
+    "price": "15.99",
+    "cover": ""
   },
   {
     "title": "The Dutch House",
     "author": "Ann Patchett",
     "year": "2019",
-    "price": "14.99"
+    "price": "14.99",
+    "cover": "/public/images/portada.png"
   }
 ]
